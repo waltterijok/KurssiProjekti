@@ -1,7 +1,7 @@
 print("hello world!")
 print("here we are")
 
-print("he said 'hello' and kept walking")
+print("he said 'hello' 5 and kept walking")
 print("he said 'hello' \n and kept walking")
 
 exampleString = "words and numbers"
