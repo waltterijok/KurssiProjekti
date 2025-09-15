@@ -21,4 +21,10 @@ print(sentence[:9]) # palauttaa x ensimmäistä merkkiä
 print(sentence[-9:-2]) # palauttaa kaiken x ja y merkkien välillä loppupäästä
 print(sentence[2:9:3]) # palauttaa x, y ja z merkit
 print(sentence[::3]) # palauttaa joka kolmannen merkin
-print(sentence[::-1])
+print(sentence[::-1]) # palauttaa tekstin backwards
+
+num1 = int(input("anna luku 1 "))
+num2 = int(input("anna luku 2 "))
+
+num3 = num1 + num2
+print(num3)
