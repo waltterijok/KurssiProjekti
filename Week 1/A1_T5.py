@@ -1,0 +1,5 @@
+print("Calculate the area of a wall")
+Width = input("enter the width in meters = ")
+feed = Width(int)
+Height = input("enter the height in meters = ")
+feed = Height(int)
