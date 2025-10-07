@@ -1,3 +1,17 @@
+# Make Python program and implement if-statements in proper places.
+
+# Ask user to insert two integers
+# Compare the integers and then announce the greater number
+# Create sum of the two integers
+# Check the parity of the sum (see modulo-operator ‘%’)
+# Other possible output variants:
+
+# Integer comparison
+# Integers are the same.
+# First integer is greater.
+# Parity check
+# Sum is even.
+
 print("Program starting.")
 print("Insert two integers.")
 first = int(input("Insert first integer: "))

@@ -1,3 +1,14 @@
+# Extend the previous menu program by adding three more options to the menu.
+
+# Options:
+
+# Print the name backwards
+# Your name backwards is "{NameBackwards}"
+# Print the first character
+# The first character in name "{Name}" is "{FirstChar}"
+# Show the amount of characters in the name
+# There are {NameLength} characters in the name "{Name}"
+
 print("Program starting.")
 name = input("This is a program with a simple menu, where you can choose which operation the program performs.\n Before the menu, please insert your name: ")
 print("Options:\n 1 - Print welcome message\n 2 - Print name backwards\n 3 - Print the first character\n 4 - Show the amount of characters in the name\n 0 - Exit")

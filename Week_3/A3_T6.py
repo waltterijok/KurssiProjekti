@@ -1,3 +1,21 @@
+# Create menu program with submenus. Mainly for unit conversions. Use the values from the following table for unit conversions https://www.isa.org/getmedia/192f7bda-c77c-480a-8925-1a39787ed098/CCST-Conversions-document.pdf
+
+# Menu options:
+
+# Length
+# Meters to kilometers
+# Kilometers to meters
+# Weight
+# Grams to pounds
+# Pounds to grams
+# Exit
+# “Exiting...”
+# Handle all the data in floating point datatype. Remember to round every value in 1 digit precision right before displaying.
+
+# Other possible prints:
+
+# “Unknown option.”
+
 print("Program starting.")
 print("Welcome to the unit converter program!\nFollow the menu instructions below.")
 print("Options:\n1 - Length\n2 - Weight\n0 - Exit")
