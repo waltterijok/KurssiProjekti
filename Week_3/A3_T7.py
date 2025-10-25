@@ -27,18 +27,21 @@ choice1 = int(input("Your Choice: "))
 if choice1 == 1:
     print("Using one multi branched decision structure.")
     if num1 >= 400:
-        print(f"Result is {num1 + 44}")
+        num1 += 44
     elif num1 >= 200:
-        print(f"Result is {num1 + 22}")
+        num1 += 22
     elif num1 >= 100:
-        print(f"Result is {num1 + 11}")
+        num1 += 11
+    print(f"Result is {num1}")
 elif choice1 == 2:
+    print("Independent if-statement decisions one after another.")
     if num1 >= 400:
-        print(f"Result is {num1 + 44}")
+        num1 += 44
     if num1 >= 200:
-        print(f"Result is {num1 + 22}")
+        num1 += 22
     if num1 >= 100:
-        print(f"Result is {num1 + 11}")
+        num1 += 11
+    print(f"Result is {num1}")
 elif choice1 == 0:
     print("Exiting...")
 else:
